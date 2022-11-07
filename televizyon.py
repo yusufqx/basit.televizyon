@@ -91,6 +91,9 @@ while True:
         kumanda1.rastgele_kanal()
     elif cevap=="7":
         kumanda1.tv_bilgiler()
-    elif cevap!="1" or "2" or "3" or "4" or "5" or "6" or "7":
+    elif cevap=="q" or cevap=="Q":
         print("çıkış yapılıyor: ")
         break
+
+    else:
+        print("Geçersiz İşlem......")

@@ -60,7 +60,7 @@ class kumanda():
     def rastgele_kanal(self):
         rastgele = random.randint(0, len(self.kanal_listesi) - 1)
         self.r_kanal = self.kanal_listesi[rastgele]
-        print("Şu anki Kanal:", self.r_kanal)
+        print("Rastgele kanal: ", self.r_kanal)
 
     def __len__(self):
         return len(self.kanal_listesi)
